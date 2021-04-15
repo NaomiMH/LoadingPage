@@ -7,7 +7,12 @@ export default function Index() {
     <div>
       <Layout>
         <div className={styles.mainDiv}>
-          <div>
+          <div className={styles.iniDiv}>
+            <p className={styles.iniImg}>Logo</p>
+            <p className={styles.iniP}>Coach de trading de materias primas</p>
+          </div>
+          <div className={styles.DivP}>
+            <p className={styles.mainP}>TE ENSEÑO</p>
             <p className={styles.mainP}>
               <Typewriter
                 typeSpeed={70}
@@ -15,20 +20,20 @@ export default function Index() {
                 deleteSpeed={40}
                 delaySpeed={2000}
                 words={[
-                  "Bienvenidos al curso de spreads con Gregory Placsintar",
-                  "Donde aprenderás a diversificar y tomar ventaja de las materias primas",
-                  "Aprende de un gestor profesional con Track Record"
+                  "ESTRATEGIAS PARA TRIUNFAR",
+                  "A OPERAR MATERIAS PRIMAS",
+                  "LA ESTACIONALIDAD DEL MERCADO"
                   ]} />
             </p>
           </div>
           <div className={styles.middleDiv}>
-            <p className={styles.middleP}>Inscribete ahora mismo</p>
+            <p className={styles.middleP}>Únete a mi lista y no te pierdas las novedades acerca de mis programas de coaching para traders, podcasts y webinars</p>
           </div>
           <div className={styles.endDiv}>
             <form className={styles.form}>
               <input type="email" className={styles.email}/>
-              <label className={styles.txtemail}>E-mail</label>
-              <input type="button" value="SIGN UP" className={styles.btnemail}/>
+              {/* <label className={styles.txtemail}>E-mail</label> */}
+              <input type="button" value="QUIERO APRENDER" className={styles.btnemail}/>
             </form>
           </div>
         </div>
