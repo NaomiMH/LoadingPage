@@ -1,0 +1,66 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.mainP{
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 60px;
+}
+
+.middleP{
+    font-size: 1.2rem;
+    letter-spacing: .0125em;
+    text-align: center;
+}
+
+.middleDiv{
+    margin: 40px 0 15px 0;
+}
+
+.endDiv{
+    margin: 24px 0;
+}
+
+.email{
+    outline: none;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.btnemail{
+    background: transparent;
+    border: none;
+    padding: 8px;
+    border-radius: 27%;
+}
+
+.btnemail:hover{
+    cursor: pointer;
+    background-color: #014a97;
+}
+
+.form{
+    position: relative;
+    border-bottom: 0.5px solid;
+}
+
+.txtemail{
+    position: absolute;
+    line-height: 35px;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+.email:focus + .txtemail{
+    top: -20px;
+    font-size: 12px;
+}

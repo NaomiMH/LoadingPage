@@ -1,0 +1,20 @@
+body{
+  background: linear-gradient(to right, #0eb6e3, #0849b1);
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+p{
+  margin: 0;
+}
+
+.{
+  height: 100%;
+}
+
+.typed-cursor{
+  display: none;
+}
