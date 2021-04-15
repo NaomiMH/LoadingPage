@@ -15,7 +15,7 @@ export default function Index() {
                 deleteSpeed={40}
                 delaySpeed={2000}
                 words={[
-                  "Bienvenidos al curso de spreads con Gregory Placsintar2",
+                  "Bienvenidos al curso de spreads con Gregory Placsintar",
                   "Donde aprenderás a diversificar y tomar ventaja de las materias primas",
                   "Aprende de un gestor profesional con Track Record"
                   ]} />
