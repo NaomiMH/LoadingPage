@@ -15,7 +15,7 @@ export default function Index() {
             <p className={styles.mainP}>TE ENSEÑO</p>
             <p className={styles.mainP}>
               <Typewriter
-                typeSpeed={70}
+                typeSpeed={50}
                 loop={true}
                 deleteSpeed={40}
                 delaySpeed={2000}
