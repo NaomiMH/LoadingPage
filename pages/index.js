@@ -32,7 +32,6 @@ export default function Index() {
           <div className={styles.endDiv}>
             <form className={styles.form}>
               <input type="email" className={styles.email}/>
-              {/* <label className={styles.txtemail}>E-mail</label> */}
               <input type="button" value="QUIERO APRENDER" className={styles.btnemail}/>
             </form>
           </div>
