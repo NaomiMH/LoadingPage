@@ -10,8 +10,8 @@
 }
 
 body{
-  color: white;
   height: 100vh;
+  color: white;
   display: flex;
   flex-direction: column;
   font-family: "GalanoGrotesqueAlt";

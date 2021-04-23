@@ -1,6 +1,5 @@
 .mainDiv{
-    height: 800 px;
-    width: 500px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
