@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="485px" height="325px" viewBox="0 0 485 325" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 7</title>
+    <defs>
+        <polygon id="path-1" points="0 0 325 0 325 325 0 325"></polygon>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#5C5C87" offset="0%"></stop>
+            <stop stop-color="#2F2F4F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="LandingPage-SpreadGreg" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-130.000000, -1038.000000)">
+            <g id="Group-7" transform="translate(131.000000, 1038.000000)">
+                <text id="TEORÍA" font-family="GalanoGrotesqueAlt-Bold, Galano Grotesque Alt" font-size="15" font-weight="bold" line-spacing="11.28" fill="#2F2F4F">
+                    <tspan x="422.71" y="56.475">TEORÍA</tspan>
+                </text>
+                <g id="Group-6" transform="translate(0.000000, 255.000000)">
+                    <text id="PRÁCTICA" font-family="GalanoGrotesqueAlt-Bold, Galano Grotesque Alt" font-size="15" font-weight="bold" line-spacing="11.28" fill="#2F2F4F">
+                        <tspan x="0" y="58.0515464">PRÁCTICA</tspan>
+                    </text>
+                    <text id="70%" font-family="GalanoGrotesqueAlt-Bold, Galano Grotesque Alt" font-size="30" font-weight="bold" line-spacing="33" fill="#2F2F4F">
+                        <tspan x="0" y="30">70%</tspan>
+                    </text>
+                    <line x1="0.3" y1="37.9690722" x2="107.7" y2="37.9690722" id="Line-Copy" stroke="#2F2F4F" stroke-width="1.8" stroke-linecap="square"></line>
+                </g>
+                <g id="Group-18" transform="translate(80.000000, 0.000000)">
+                    <line x1="178.717822" y1="0.836111406" x2="168.743035" y2="100.1472" id="Stroke-1" stroke="#FF4848" stroke-width="1.4"></line>
+                    <line x1="194.77074" y1="3.2888123" x2="174.920662" y2="101.106069" id="Stroke-3" stroke="#FF4848" stroke-width="1.4"></line>
+                    <line x1="210.498125" y1="7.33357918" x2="180.971748" y2="102.677466" id="Stroke-4" stroke="#FF4848" stroke-width="1.4"></line>
+                    <line x1="225.742606" y1="12.9298432" x2="186.835613" y2="104.845343" id="Stroke-5" stroke="#FF4848" stroke-width="1.4"></line>
+                    <line x1="240.351436" y1="20.0216206" x2="192.453403" y2="107.588753" id="Stroke-6" stroke="#FF4848" stroke-width="1.4"></line>
+                    <line x1="254.178455" y1="28.5377933" x2="197.768641" y2="110.880018" id="Stroke-7" stroke="#FF4848" stroke-width="1.4"></line>
+                    <line x1="267.085139" y1="38.3932997" x2="202.728988" y2="114.685926" id="Stroke-8" stroke="#FF4848" stroke-width="1.4"></line>
+                    <line x1="278.942215" y1="49.489205" x2="207.283646" y2="118.9678" id="Stroke-9" stroke="#FF4848" stroke-width="1.4"></line>
+                    <line x1="289.631058" y1="61.714593" x2="211.38756" y2="123.68409" id="Stroke-10" stroke="#FF4848" stroke-width="1.4"></line>
+                    <line x1="299.044605" y1="74.9469861" x2="214.999531" y2="128.786591" id="Stroke-11" stroke="#FF4848" stroke-width="1.4"></line>
+                    <line x1="307.088616" y1="89.0538875" x2="218.083475" y2="134.224783" id="Stroke-12" stroke="#FF4848" stroke-width="1.4"></line>
+                    <line x1="313.682513" y1="103.894112" x2="220.608562" y2="139.943665" id="Stroke-13" stroke="#FF4848" stroke-width="1.4"></line>
+                    <line x1="318.760293" y1="119.318976" x2="222.550128" y2="145.887042" id="Stroke-14" stroke="#FF4848" stroke-width="1.4"></line>
+                    <g id="Group-17">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-16"></g>
+                        <path d="M224.420085,152.670734 C224.92457,155.873504 225.189424,159.155449 225.189424,162.499755 C225.189424,197.12204 197.121849,225.188842 162.500175,225.188842 C127.8778,225.188842 99.8102253,197.12204 99.8102253,162.499755 C99.8102253,127.87817 127.8778,99.8113684 162.500175,99.8113684 L162.500175,0 C72.7537219,0 0,72.7535337 0,162.499755 C0,252.246676 72.7537219,325.00021 162.500175,325.00021 C252.246628,325.00021 325.00035,252.246676 325.00035,162.499755 C325.00035,153.362997 324.233814,144.406312 322.784821,135.680148 L224.420085,152.670734 Z" id="Fill-15" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+                <text id="30%" font-family="GalanoGrotesqueAlt-Bold, Galano Grotesque Alt" font-size="30" font-weight="bold" line-spacing="33" fill="#2F2F4F">
+                    <tspan x="414.63" y="29.39">30%</tspan>
+                </text>
+                <line x1="375.3" y1="41.5" x2="482.7" y2="41.5" id="Line" stroke="#2F2F4F" stroke-width="1.8" stroke-linecap="square"></line>
+            </g>
+        </g>
+    </g>
+</svg>

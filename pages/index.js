@@ -8,8 +8,10 @@ export default function Index() {
       <Layout>
         <div className={styles.mainDiv}>
           <div className={styles.iniDiv}>
-            <p className={styles.iniImg}>Logo</p>
-            <p className={styles.iniP}>Coach de trading de materias primas</p>
+            <figure className={styles.iniFig}>
+              <img className={styles.iniImg} src="icons/LogoSpreadgreg.svg" />
+              <figcaption className={styles.iniFigCap}>Coach de trading de materias primas</figcaption>
+            </figure>
           </div>
           <div className={styles.DivP}>
             <p className={styles.mainP}>TE ENSEÑO</p>
