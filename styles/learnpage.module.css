@@ -1,0 +1,43 @@
+.mainLearn{
+    display: flex;
+    color: black;
+}
+
+.fig{
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    max-width: 484px;
+    max-height: 325px;
+}
+
+.middleDiv{
+    flex: 1;
+    margin-bottom: 103px;
+}
+
+.mainH{
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 47px;
+    height: 129px;
+    width: 552px;
+    margin-top: 189px;
+}
+
+.mainP{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.middleH{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 47px;
+    margin: 40px 0 15px 0;
+}
