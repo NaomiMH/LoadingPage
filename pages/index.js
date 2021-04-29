@@ -2,6 +2,8 @@ import Layout from '../components/Layout'
 import FrontPage from '../components/FrontPage'
 import LearnPage from '../components/LearnPage'
 import AboutPage from '../components/AboutPage'
+import StoryPage from '../components/StoryPage'
+import SubscribePage from '../components/SubscribePage'
 import styles from "../styles/index.module.css"
 
 export default function Index() {
@@ -10,11 +12,8 @@ export default function Index() {
       <FrontPage />
       <LearnPage />
       <AboutPage />
-      <p>
-        sksd
-        sksds
-        sdlkj
-      </p>
+      <StoryPage />
+      <SubscribePage />
     </Layout>
   )
 }

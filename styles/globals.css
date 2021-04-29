@@ -9,6 +9,19 @@
   src: url("./font/GalanoGrotesqueAltBold.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "GalanoGrotesqueAlt";
+  font-weight: 300;
+  font-style: italic;
+  src: url("./font/GalanoGrotesqueLightItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GalanoGrotesqueAlt";
+  font-style: italic;
+  src: url("./font/GalanoGrotesqueMediumItalic.otf") format("opentype");
+}
+
 body{
   height: 100vh;
   color: white;

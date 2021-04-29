@@ -1,0 +1,26 @@
+.mainSubscribe{
+    background-color: #2F2F4F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 67px 0 81px 0;
+}
+
+.mainP{
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 48px;
+    width: 619px;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.mainBtn{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #4effd2;
+    width: 252px;
+    height: 87px;
+}
