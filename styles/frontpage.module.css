@@ -25,13 +25,13 @@
 .iniImg{
     width: 131.84px;
     height: 66.15px;
-    margin-bottom: 15.85px;
 }
 
 .iniFigCap{
     font-weight: bold;
     font-size: 17px;
     line-height: 20px;
+    margin-top: 15.85px;
 }
 
 .DivP{
@@ -60,12 +60,12 @@
 .endDiv{
     height: 87px;
     width: 668px;
-    border: 2px solid black;
+    border: 2px solid #2f2f4f;
 }
 
 .form{
     display: flex;
-    color: black;
+    color: #2f2f4f;
     height: 100%;
 }
 
