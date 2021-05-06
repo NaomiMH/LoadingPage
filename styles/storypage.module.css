@@ -21,6 +21,25 @@
     background-color: #ff4848;
     height: 6px;
     width: 62px;
+    animation: color1 39s infinite;
+}
+
+@keyframes color1 {
+    0%{
+        opacity: 100%;
+    }
+    25.6%{
+        opacity: 100%;
+    }
+    33.3%{
+        opacity: 25%;
+    }
+    92.2%{
+        opacity: 25%;
+    }
+    100%{
+        opacity: 100%;
+    }
 }
 
 .div2{
@@ -29,12 +48,95 @@
     width: 62px;
     opacity: 25%;
     margin-left: 7.5px;
+    animation: color2 39s infinite;
+}
+
+@keyframes color2 {
+    0%{
+        opacity: 25%;
+    }
+    25.6%{
+        opacity: 25%;
+    }
+    33.3%{
+        opacity: 100%;
+    }
+    58.9%{
+        opacity: 100%;
+    }
+    66.6%{
+        opacity: 25%;
+    }
+    100%{
+        opacity: 25%;
+    }
+}
+
+.div3{
+    background-color: #ff4848;
+    height: 6px;
+    width: 62px;
+    opacity: 25%;
+    margin-left: 7.5px;
+    animation: color3 39s infinite;
+}
+
+@keyframes color3 {
+    0%{
+        opacity: 25%;
+    }
+    58.9%{
+        opacity: 25%;
+    }
+    66.6%{
+        opacity: 100%;
+    }
+    92.2%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 25%;
+    }
+}
+
+.divShift{
+    display: flex;
+    width: 310px;
+    overflow: hidden;
+}
+
+.divChild:first-child{
+    animation: shift 39s infinite;
+}
+
+@keyframes shift {
+    0%{
+        margin-left: 0;
+    }
+    25.6%{
+        margin-left: 0;
+    }
+    33.3%{
+        margin-left: -310px;
+    }
+    58.9%{
+        margin-left: -310px;
+    }
+    66.6%{
+        margin-left: -620px;
+    }
+    92.2%{
+        margin-left: -620px;
+    }
+    100%{
+        margin-left: 0;
+    }
 }
 
 .middleDiv{
     margin: 39.5px 0 9.5px 0;
     width: 310px;
-    height: 350px;
+    height: 425px;
     text-align: center;
     font-size: 14.2px;
     font-style: italic;
@@ -48,6 +150,8 @@
     font-size: 18px;
     font-weight: bold;
     line-height: 40px;
+    width: 100%;
+    text-align: center;
 }
 
 .endDiv{
@@ -66,6 +170,10 @@
         height: 40px;
         margin: 80px 0 54px 0px;
     }
+
+    .divShift{
+        width: 470px;
+    }
     
     .div1{
         height: 7px;
@@ -77,11 +185,41 @@
         width: 93px;
         margin-left: 12px;
     }
+
+    .div3{
+        height: 7px;
+        width: 93px;
+        margin-left: 12px;
+    }
+
+    @keyframes shift {
+        0%{
+            margin-left: 0;
+        }
+        25.6%{
+            margin-left: 0;
+        }
+        33.3%{
+            margin-left: -470px;
+        }
+        58.9%{
+            margin-left: -470px;
+        }
+        66.6%{
+            margin-left: -940px;
+        }
+        92.2%{
+            margin-left: -940px;
+        }
+        100%{
+            margin-left: 0;
+        }
+    }
     
     .middleDiv{
         margin: 59px 0 14px 0;
         width: 470px;
-        height: 350px;
+        height: 425px;
         font-size: 18px;
         line-height: 25px;
     }
@@ -105,6 +243,10 @@
         height: 67px;
         margin: 105px 0 72px 0px;
     }
+
+    .divShift{
+        width: 750px;
+    }
     
     .div1{
         height: 10px;
@@ -116,11 +258,41 @@
         width: 124px;
         margin-left: 15px;
     }
+
+    .div3{
+        height: 10px;
+        width: 124px;
+        margin-left: 15px;
+    }
+
+    @keyframes shift {
+        0%{
+            margin-left: 0;
+        }
+        25.6%{
+            margin-left: 0;
+        }
+        33.3%{
+            margin-left: -750px;
+        }
+        58.9%{
+            margin-left: -750px;
+        }
+        66.6%{
+            margin-left: -1500px;
+        }
+        92.2%{
+            margin-left: -1500px;
+        }
+        100%{
+            margin-left: 0;
+        }
+    }
     
     .middleDiv{
         margin: 79px 0 19px 0;
         width: 750px;
-        height: 289px;
+        height: 326px;
         font-size: 20px;
     }
     
