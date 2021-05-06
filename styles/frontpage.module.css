@@ -89,6 +89,25 @@
     cursor: pointer;
 }
 
+@media screen and (min-width: 340px) {
+    .endDiv{
+        height: 55px;
+        width: 330px;
+    }
+
+    .form{
+        flex-direction: row;
+    }
+    
+    .email{
+        flex: 5;
+    }
+    
+    .btnemail{
+        flex: 4;
+    }
+}
+
 @media screen and (min-width: 480px) {
     .mainDiv{
         padding-bottom: 129px;
