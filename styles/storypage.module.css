@@ -6,11 +6,11 @@
 }
 
 .mainH{
-    font-size: 38px;
+    font-size: 23px;
     font-weight: bold;
-    line-height: 55px;
-    height: 67;
-    margin: 105px 0 72px 0px;
+    line-height: 40px;
+    height: 33.5px;
+    margin: 52.5px 0 36px 0px;
 }
 
 .mainDiv{
@@ -19,41 +19,119 @@
 
 .div1{
     background-color: #ff4848;
-    height: 10px;
-    width: 124px;
+    height: 6px;
+    width: 62px;
 }
 
 .div2{
     background-color: #ff4848;
-    height: 10px;
-    width: 124px;
+    height: 6px;
+    width: 62px;
     opacity: 25%;
-    margin-left: 15px;
+    margin-left: 7.5px;
 }
 
 .middleDiv{
-    margin: 79px 0 19px 0;
-    width: 750px;
-    height: 289px;
+    margin: 39.5px 0 9.5px 0;
+    width: 310px;
+    height: 350px;
     text-align: center;
-    font-size: 20px;
+    font-size: 14.2px;
     font-style: italic;
-    line-height: 25px;
+    line-height: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .endName{
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
-    line-height: 55px;
+    line-height: 40px;
 }
 
 .endDiv{
-    font-size: 20px;
+    font-size: 14.2px;
     font-weight: 300;
     font-style: italic;
-    line-height: 30px;
-    margin-bottom: 126px;
+    line-height: 25px;
+    margin-bottom: 63px;
+    text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+    .mainH{
+        font-size: 31px;
+        line-height: 50px;
+        height: 40px;
+        margin: 80px 0 54px 0px;
+    }
+    
+    .div1{
+        height: 7px;
+        width: 93px;
+    }
+    
+    .div2{
+        height: 7px;
+        width: 93px;
+        margin-left: 12px;
+    }
+    
+    .middleDiv{
+        margin: 59px 0 14px 0;
+        width: 470px;
+        height: 350px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .endName{
+        font-size: 21px;
+        line-height: 50px;
+    }
+    
+    .endDiv{
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 94.5px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .mainH{
+        font-size: 38px;
+        line-height: 55px;
+        height: 67px;
+        margin: 105px 0 72px 0px;
+    }
+    
+    .div1{
+        height: 10px;
+        width: 124px;
+    }
+    
+    .div2{
+        height: 10px;
+        width: 124px;
+        margin-left: 15px;
+    }
+    
+    .middleDiv{
+        margin: 79px 0 19px 0;
+        width: 750px;
+        height: 289px;
+        font-size: 20px;
+    }
+    
+    .endName{
+        font-size: 25px;
+        line-height: 55px;
+    }
+    
+    .endDiv{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 126px;
+    }
 }

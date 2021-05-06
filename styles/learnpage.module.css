@@ -1,44 +1,122 @@
 .mainLearn{
     display: flex;
     color: #2f2f4f;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
 .fig{
-    flex: 1;
-    padding: 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    margin-right: 2.5%;
+    margin-bottom: 94.5px;
 }
 
 .img{
-    max-width: 484px;
-    max-height: 325px;
+    max-width: 300px;
 }
 
 .middleDiv{
-    flex: 1;
-    margin-bottom: 103px;
+    margin-bottom: 50px;
 }
 
 .mainH{
-    font-size: 38px;
+    font-size: 23px;
     font-weight: bold;
-    line-height: 47px;
-    height: 129px;
-    width: 552px;
-    margin-top: 189px;
+    line-height: 35px;
+    height: 90px;
+    width: 260px;
+    margin-top: 94.5px;
 }
 
 .mainP{
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 14.2px;
+    line-height: 25px;
 }
 
 .middleH{
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
-    line-height: 47px;
-    margin: 40px 0 15px 0;
+    line-height: 28px;
+    margin: 20px 0 7.5px 0;
+}
+
+@media screen and (min-width: 480px) {
+    .fig{
+        margin-bottom: 140px;
+    }
+    
+    .img{
+        max-width: 400px;
+    }
+    
+    .middleDiv{
+        margin-bottom: 75px;
+    }
+    
+    .mainH{
+        font-size: 31px;
+        line-height: 42px;
+        height: 110px;
+        width: 350px;
+        margin-top: 140px;
+    }
+    
+    .mainP{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .middleH{
+        font-size: 22px;
+        line-height: 42px;
+        margin: 30px 0 11.25px 0;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .fig{
+        padding-right: 30px;
+        margin-bottom: 103px;
+    }
+    
+    .img{
+        max-width: 484px;
+    }
+    
+    .mainH{
+        font-size: 38px;
+        line-height: 47px;
+        height: 129px;
+        width: 429px;
+        margin-top: 189px;
+    }
+    
+    .mainP{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .middleH{
+        font-size: 28px;
+        line-height: 47px;
+        margin: 40px 0 15px 0;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .mainLearn{
+        flex-direction: row;
+    }
+    
+    .fig{
+        flex: 1;
+        justify-content: flex-end;
+        margin-bottom: 0;
+    }
+    
+    .middleDiv{
+        flex: 1;
+        margin-bottom: 103px;
+    }
 }

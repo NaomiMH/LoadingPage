@@ -6,7 +6,7 @@ export default function FrontPage() {
     <div className={styles.mainDiv}>
         <div className={styles.iniDiv}>
             <figure className={styles.iniFig}>
-            <img src="LogoSpreadgreg.svg" />
+            <img src="LogoSpreadgreg.svg" className={styles.iniImg} />
             <figcaption className={styles.iniFigCap}>Coach de trading de materias primas</figcaption>
             </figure>
         </div>

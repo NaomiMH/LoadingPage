@@ -41,3 +41,11 @@ p{
 .typed-cursor{
   display: none;
 }
+
+body:hover{
+  cursor: default;
+}
+
+input:focus{
+  outline-offset: none;
+}

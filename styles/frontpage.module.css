@@ -1,16 +1,15 @@
 .mainDiv{
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
     background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(18,18,31,0.8)), url("./images/foto-principal-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 85px;
 }
 
 .iniDiv{
-    margin: 50px 0px;
+    margin: 25px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,48 +22,48 @@
 }
 
 .iniImg{
-    width: 131.84px;
-    height: 66.15px;
+    max-width: 100px;
 }
 
 .iniFigCap{
     font-weight: bold;
-    font-size: 17px;
+    font-size: 10px;
     line-height: 20px;
-    margin-top: 15.85px;
+    margin-top: 8px;
 }
 
 .DivP{
-    width: 552px;
-    height: 190px
+    width: 305px;
+    height: 140px;
 }
 
 .mainP{
     font-weight: bold;
     text-align: center;
-    font-size: 50px;
-    line-height: 55px;
+    font-size: 28px;
+    line-height: 33px;
 }
 
 .middleP{
     text-align: center;
-    font-size: 20px;
-    width: 422px;
-    line-height: 25px;
+    font-size: 14.2px;
+    width: 310px;
+    line-height: 20px;
 }
 
 .middleDiv{
-    margin: 7px 0 33px 0;
+    margin: 3.5px 0 16.5px 0;
 }
 
 .endDiv{
     height: 87px;
-    width: 668px;
+    width: 250px;
     border: 2px solid #2f2f4f;
 }
 
 .form{
     display: flex;
+    flex-direction: column;
     color: #2f2f4f;
     height: 100%;
 }
@@ -72,22 +71,129 @@
 .email{
     outline: none;
     border: none;
-    flex: 2;
     height: 100%;
-    padding: 10px;
+    padding: 5px;
     background-color: white;
-    font-size: 20px;
+    font-size: 14.2px;
 }
 
 .btnemail{
     background: #4EFFD2;
     border: none;
-    flex: 1;
     height: 100%;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 14.2px;
 }
 
 .btnemail:hover{
     cursor: pointer;
+}
+
+@media screen and (min-width: 480px) {
+    .mainDiv{
+        padding-bottom: 129px;
+    }
+    
+    .iniDiv{
+        margin: 37.5px 0px;
+    }
+    
+    .iniImg{
+        max-width: 120px;
+    }
+    
+    .iniFigCap{
+        font-size: 14px;
+        margin-top: 12px;
+    }
+    
+    .DivP{
+        width: 452px;
+        height: 190px;
+    }
+    
+    .mainP{
+        font-size: 42px;
+        line-height: 50px;
+    }
+    
+    .middleP{
+        font-size: 18px;
+        width: 380px;
+        line-height: 25px;
+    }
+    
+    .middleDiv{
+        margin: 7px 0 33px 0;
+    }
+    
+    .endDiv{
+        height: 70px;
+        width: 460px;
+    }
+    
+    .form{
+        flex-direction: row;
+    }
+    
+    .email{
+        flex: 4;
+        padding: 7.5px;
+        font-size: 18px;
+    }
+    
+    .btnemail{
+        flex: 3;
+        height: 100%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .mainDiv{
+        padding-bottom: 172px;
+    }
+    
+    .iniDiv{
+        margin: 50px 0px;
+    }
+    
+    .iniImg{
+        max-width: 100%;
+    }
+    
+    .iniFigCap{
+        font-size: 17px;
+        margin-top: 15.85px;
+    }
+    
+    .DivP{
+        width: 552px;
+    }
+    
+    .mainP{
+        font-size: 50px;
+        line-height: 55px;
+    }
+    
+    .middleP{
+        font-size: 20px;
+        width: 422px;
+    }
+    
+    .endDiv{
+        height: 87px;
+        width: 668px;
+    }
+    
+    .email{
+        flex: 2;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+    .btnemail{
+        flex: 1;
+        font-size: 20px;
+    }
 }

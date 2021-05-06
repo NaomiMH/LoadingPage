@@ -6,7 +6,7 @@ export default function AboutPage() {
         <div className={styles.mainDiv}>
             <div>
                 <h2 className={styles.mainH}>Sobre mí</h2>
-                <p className={styles.mainP}>He empezado a operar como algunos de vosotros en 1999. Hoy, soy un gestor auditado con track record desde 2009 en USA y asesor del fondo de inversión Seasonal Quant Multistrategy (Andbank). Especialista en mercados de deribados de materias primas y padre full-time de Anna 5 y Mark 2 donde las estrategias tienen fecha de caducidad.</p>
+                <p className={styles.mainP}>He empezado a operar como algunos de vosotros en 1999. Hoy, soy un gestor auditado con track record desde 2009 en USA y asesor del fondo de inversión Seasonal Quant Multistrategy (Andbank). Especialista en mercados de derivados de materias primas y padre full-time de Anna 5 y Mark 2 donde las estrategias tienen fecha de caducidad.</p>
             </div>
             <div className={styles.middleDiv}>
                 <input type="button" value="ESCUCHA MI PODCAST" className={styles.btnPod} />
@@ -19,10 +19,10 @@ export default function AboutPage() {
             </div>
             <div className={styles.endDiv}>
                 <figure className="{styles.svgFig}">
-                    <img src="logo-nfa.png" />
+                    <img src="logo-nfa.png" className={styles.imgNFA} />
                 </figure>
                 <figure className="{styles.svgFig}">
-                    <img src="Logo-CFTC.png" />
+                    <img src="Logo-CFTC.png" className={styles.imgCFTC} />
                 </figure>
                 <p className={styles.endP}>ISIN ESO131462097</p>
             </div>
