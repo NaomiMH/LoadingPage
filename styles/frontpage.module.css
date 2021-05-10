@@ -68,10 +68,28 @@
     height: 100%;
 }
 
+.hide{
+    display: none;
+}
+
+.mail1{
+    position: absolute;
+    left: -5000px;
+}
+
+.mail2{
+    flex: 1;
+}
+
+.mail3{
+    flex: 1;
+}
+
 .email{
     outline: none;
     border: none;
     height: 100%;
+    width: 100%;
     padding: 5px;
     background-color: white;
     font-size: 14.2px;
@@ -81,6 +99,7 @@
     background: #4EFFD2;
     border: none;
     height: 100%;
+    width: 100%;
     font-weight: bolder;
     font-size: 14.2px;
 }
@@ -98,12 +117,12 @@
     .form{
         flex-direction: row;
     }
-    
-    .email{
+
+    .mail2{
         flex: 5;
     }
-    
-    .btnemail{
+
+    .mail3{
         flex: 4;
     }
 }
@@ -156,15 +175,21 @@
     }
     
     .email{
-        flex: 4;
         padding: 7.5px;
         font-size: 18px;
     }
     
     .btnemail{
-        flex: 3;
         height: 100%;
         font-size: 18px;
+    }
+
+    .mail2{
+        flex: 4;
+    }
+
+    .mail3{
+        flex: 3;
     }
 }
 
@@ -206,13 +231,19 @@
     }
     
     .email{
-        flex: 2;
         padding: 10px;
         font-size: 20px;
     }
     
     .btnemail{
-        flex: 1;
         font-size: 20px;
+    }
+    
+    .mail2{
+        flex: 2;
+    }
+
+    .mail3{
+        flex: 1;
     }
 }
