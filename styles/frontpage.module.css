@@ -66,10 +66,7 @@
     flex-direction: column;
     color: #2f2f4f;
     height: 100%;
-}
-
-.hide{
-    display: none;
+    font-size: 14.2px;
 }
 
 .mail1{
@@ -77,35 +74,12 @@
     left: -5000px;
 }
 
-.mail2{
+#mail2{
     flex: 1;
 }
 
-.mail3{
+#mail3{
     flex: 1;
-}
-
-.email{
-    outline: none;
-    border: none;
-    height: 100%;
-    width: 100%;
-    padding: 5px;
-    background-color: white;
-    font-size: 14.2px;
-}
-
-.btnemail{
-    background: #4EFFD2;
-    border: none;
-    height: 100%;
-    width: 100%;
-    font-weight: bolder;
-    font-size: 14.2px;
-}
-
-.btnemail:hover{
-    cursor: pointer;
 }
 
 @media screen and (min-width: 340px) {
@@ -118,11 +92,11 @@
         flex-direction: row;
     }
 
-    .mail2{
+    #mail2{
         flex: 5;
     }
 
-    .mail3{
+    #mail3{
         flex: 4;
     }
 }
@@ -172,23 +146,14 @@
     
     .form{
         flex-direction: row;
-    }
-    
-    .email{
-        padding: 7.5px;
-        font-size: 18px;
-    }
-    
-    .btnemail{
-        height: 100%;
         font-size: 18px;
     }
 
-    .mail2{
+    #mail2{
         flex: 4;
     }
 
-    .mail3{
+    #mail3{
         flex: 3;
     }
 }
@@ -229,21 +194,16 @@
         height: 87px;
         width: 668px;
     }
-    
-    .email{
-        padding: 10px;
+
+    .form{
         font-size: 20px;
     }
     
-    .btnemail{
-        font-size: 20px;
-    }
-    
-    .mail2{
+    #mail2{
         flex: 2;
     }
 
-    .mail3{
+    #mail3{
         flex: 1;
     }
 }

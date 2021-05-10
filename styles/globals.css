@@ -34,10 +34,6 @@ p{
   margin: 0;
 }
 
-.{
-  height: 100%;
-}
-
 .typed-cursor{
   display: none;
 }
@@ -48,4 +44,30 @@ body:hover{
 
 input:focus{
   outline-offset: none;
+}
+
+form{
+  height: 100%;
+  width: 100%;
+}
+
+#mce-EMAIL{
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  background-color: white;
+}
+
+#mc-embedded-subscribe{
+  background: #4EFFD2;
+  border: none;
+  height: 100%;
+  width: 100%;
+  font-weight: bolder;
+}
+
+#mc-embedded-subscribe:hover{
+  cursor: pointer;
 }
